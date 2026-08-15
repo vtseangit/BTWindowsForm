@@ -71,6 +71,7 @@
             this.bàiSố2ToolStripMenuItem.Name = "bàiSố2ToolStripMenuItem";
             this.bàiSố2ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.bàiSố2ToolStripMenuItem.Text = "Bài số 2";
+            this.bàiSố2ToolStripMenuItem.Click += new System.EventHandler(this.bàiSố2ToolStripMenuItem_Click);
             // 
             // bàiSố3ToolStripMenuItem
             // 

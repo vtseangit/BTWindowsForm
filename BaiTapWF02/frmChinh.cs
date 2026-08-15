@@ -22,5 +22,11 @@ namespace BaiTapWF02
             var frmBai1 = new frmBai1();
             frmBai1.Show();
         }
+
+        private void bàiSố2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frmBai2 = new frmBai2();
+            frmBai2.Show();
+        }
     }
 }
