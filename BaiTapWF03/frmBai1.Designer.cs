@@ -175,7 +175,7 @@
             this.Controls.Add(this.lblHoTen);
             this.Controls.Add(this.lblMaNhanVien);
             this.Name = "frmBai1";
-            this.Text = "frmBai1";
+            this.Text = "Tính tổng lương";
             this.ResumeLayout(false);
             this.PerformLayout();
 
