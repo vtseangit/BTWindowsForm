@@ -79,6 +79,7 @@
             this.bàiSố3ToolStripMenuItem.Name = "bàiSố3ToolStripMenuItem";
             this.bàiSố3ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.bàiSố3ToolStripMenuItem.Text = "Bài số 3";
+            this.bàiSố3ToolStripMenuItem.Click += new System.EventHandler(this.bàiSố3ToolStripMenuItem_Click);
             // 
             // frmChinh
             // 
