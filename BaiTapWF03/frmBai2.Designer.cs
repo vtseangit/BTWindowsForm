@@ -102,7 +102,7 @@
             // 
             this.lblKetQua.AutoSize = true;
             this.lblKetQua.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.lblKetQua.Location = new System.Drawing.Point(100, 220);
+            this.lblKetQua.Location = new System.Drawing.Point(89, 221);
             this.lblKetQua.Name = "lblKetQua";
             this.lblKetQua.Size = new System.Drawing.Size(18, 18);
             this.lblKetQua.TabIndex = 5;
