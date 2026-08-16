@@ -33,10 +33,10 @@
             this.txtSoThuNhat = new System.Windows.Forms.TextBox();
             this.txtSoThuHai = new System.Windows.Forms.TextBox();
             this.grbChonPhepToan = new System.Windows.Forms.GroupBox();
-            this.rdbCong = new System.Windows.Forms.RadioButton();
-            this.rdbTru = new System.Windows.Forms.RadioButton();
-            this.rdbNhan = new System.Windows.Forms.RadioButton();
             this.rdbChia = new System.Windows.Forms.RadioButton();
+            this.rdbNhan = new System.Windows.Forms.RadioButton();
+            this.rdbTru = new System.Windows.Forms.RadioButton();
+            this.rdbCong = new System.Windows.Forms.RadioButton();
             this.btnXemKetQua = new System.Windows.Forms.Button();
             this.lblKetQuaLa = new System.Windows.Forms.Label();
             this.lblKetQua = new System.Windows.Forms.Label();
@@ -88,28 +88,16 @@
             this.grbChonPhepToan.TabStop = false;
             this.grbChonPhepToan.Text = "Chọn phép toán: ";
             // 
-            // rdbCong
+            // rdbChia
             // 
-            this.rdbCong.AutoSize = true;
-            this.rdbCong.Checked = true;
-            this.rdbCong.Location = new System.Drawing.Point(10, 31);
-            this.rdbCong.Name = "rdbCong";
-            this.rdbCong.Size = new System.Drawing.Size(60, 20);
-            this.rdbCong.TabIndex = 0;
-            this.rdbCong.TabStop = true;
-            this.rdbCong.Text = "Cộng";
-            this.rdbCong.UseVisualStyleBackColor = true;
-            // 
-            // rdbTru
-            // 
-            this.rdbTru.AutoSize = true;
-            this.rdbTru.Location = new System.Drawing.Point(10, 57);
-            this.rdbTru.Name = "rdbTru";
-            this.rdbTru.Size = new System.Drawing.Size(48, 20);
-            this.rdbTru.TabIndex = 1;
-            this.rdbTru.TabStop = true;
-            this.rdbTru.Text = "Trừ";
-            this.rdbTru.UseVisualStyleBackColor = true;
+            this.rdbChia.AutoSize = true;
+            this.rdbChia.Location = new System.Drawing.Point(10, 109);
+            this.rdbChia.Name = "rdbChia";
+            this.rdbChia.Size = new System.Drawing.Size(55, 20);
+            this.rdbChia.TabIndex = 3;
+            this.rdbChia.TabStop = true;
+            this.rdbChia.Text = "Chia";
+            this.rdbChia.UseVisualStyleBackColor = true;
             // 
             // rdbNhan
             // 
@@ -122,16 +110,28 @@
             this.rdbNhan.Text = "Nhân";
             this.rdbNhan.UseVisualStyleBackColor = true;
             // 
-            // rdbChia
+            // rdbTru
             // 
-            this.rdbChia.AutoSize = true;
-            this.rdbChia.Location = new System.Drawing.Point(10, 109);
-            this.rdbChia.Name = "rdbChia";
-            this.rdbChia.Size = new System.Drawing.Size(55, 20);
-            this.rdbChia.TabIndex = 3;
-            this.rdbChia.TabStop = true;
-            this.rdbChia.Text = "Chia";
-            this.rdbChia.UseVisualStyleBackColor = true;
+            this.rdbTru.AutoSize = true;
+            this.rdbTru.Location = new System.Drawing.Point(10, 57);
+            this.rdbTru.Name = "rdbTru";
+            this.rdbTru.Size = new System.Drawing.Size(48, 20);
+            this.rdbTru.TabIndex = 1;
+            this.rdbTru.TabStop = true;
+            this.rdbTru.Text = "Trừ";
+            this.rdbTru.UseVisualStyleBackColor = true;
+            // 
+            // rdbCong
+            // 
+            this.rdbCong.AutoSize = true;
+            this.rdbCong.Checked = true;
+            this.rdbCong.Location = new System.Drawing.Point(10, 31);
+            this.rdbCong.Name = "rdbCong";
+            this.rdbCong.Size = new System.Drawing.Size(60, 20);
+            this.rdbCong.TabIndex = 0;
+            this.rdbCong.TabStop = true;
+            this.rdbCong.Text = "Cộng";
+            this.rdbCong.UseVisualStyleBackColor = true;
             // 
             // btnXemKetQua
             // 
@@ -177,7 +177,7 @@
             this.Controls.Add(this.lblSoThuHai);
             this.Controls.Add(this.lblSoThuNhat);
             this.Name = "frmBai2";
-            this.Text = "frmBai2";
+            this.Text = "Bài 2";
             this.grbChonPhepToan.ResumeLayout(false);
             this.grbChonPhepToan.PerformLayout();
             this.ResumeLayout(false);

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiTapWindowsForm", "BaiTap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiTapWF02", "BaiTapWF02\BaiTapWF02.csproj", "{623F72F8-D411-4DB2-9328-7FD920326265}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiTapWF03", "BaiTapWF03\BaiTapWF03.csproj", "{190AE371-359B-4C8A-BDE1-336A99B7BF30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{623F72F8-D411-4DB2-9328-7FD920326265}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{623F72F8-D411-4DB2-9328-7FD920326265}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{623F72F8-D411-4DB2-9328-7FD920326265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190AE371-359B-4C8A-BDE1-336A99B7BF30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190AE371-359B-4C8A-BDE1-336A99B7BF30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190AE371-359B-4C8A-BDE1-336A99B7BF30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190AE371-359B-4C8A-BDE1-336A99B7BF30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

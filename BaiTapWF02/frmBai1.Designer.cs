@@ -206,7 +206,7 @@
             this.Controls.Add(this.lblTenThietBi);
             this.Controls.Add(this.lbMaThietBi);
             this.Name = "frmBai1";
-            this.Text = "Form1";
+            this.Text = "Bài 1";
             this.ResumeLayout(false);
             this.PerformLayout();
 

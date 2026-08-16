@@ -185,7 +185,7 @@
             this.Controls.Add(this.txtTen);
             this.Controls.Add(this.txtHo);
             this.Name = "frmBai3";
-            this.Text = "frmBai3";
+            this.Text = "Bài 3";
             this.ResumeLayout(false);
             this.PerformLayout();
 
